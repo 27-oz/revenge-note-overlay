@@ -1,0 +1,13 @@
+{
+  "id": "note-overlay",
+  "name": "Note Overlay",
+  "description": "A floating sticky note that stays on top of Discord for quick reminders.",
+  "authors": [
+    {
+      "name": "you",
+      "id": "000000000000000000"
+    }
+  ],
+  "main": "index.js",
+  "hash": ""
+}
