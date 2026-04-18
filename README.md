@@ -16,13 +16,6 @@ note-overlay/
 └── manifest.json  ← plugin metadata
 ```
 
-## How to host & install
-1. Put both files in a public GitHub repo
-2. Enable **GitHub Pages** on the repo (Settings → Pages → Deploy from main branch)
-3. Your plugin URL will be:
-   `https://yourusername.github.io/your-repo-name/`
-4. In Revenge: Settings → Plugins → + → paste the URL above
+## How to install
+1.  In Revenge: Settings → Plugins → + → paste the URL above
 
-## Troubleshooting
-- If the overlay doesn't appear, open Revenge Developer settings and check the JS console for `[NoteOverlay]` warnings
-- The plugin targets `AppContainer` — if Discord updates and renames it, the `findByName` call will need updating
